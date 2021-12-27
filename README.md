@@ -30,6 +30,8 @@ Djikstra’s algorithm using nx.dijkstra_path(G, 1 , 7). The output of this func
 
 ### Results
 
+[![Alt text](https://img.youtube.com/vi/OA98RyGSr8U/0.jpg)](https://www.youtube.com/watch?v=OA98RyGSr8U)
+
 If we compare the video and the processed voronoi diagram, we can see that the robot’s motion is along the path that was found by the Djikstra’s algorithm. There are some slight angular deviations during robot’s locomotion and a horizontal drift can also be seen especially during the last second journey from from the first stop to second stop(Although the robot reached a position which has similar z-coordinate as Node 11 but it is little closer to the obstacle.
 
 
