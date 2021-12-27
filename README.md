@@ -7,7 +7,7 @@ An environment is given which has april tags at its edges and an obstacle in the
 <a href="url"><img src="./arena_hw4_graph.png" height="300" width="400" ></a>
 <a href="url"><img src="./arena_pic.png" height="300" width="300" ></a>
 
-### Voronoi Based Planning Algorithm
+### Voronoi Diagram
 To achieve the task mentioned in the above section, Voronoi Diagrams based approach is used in this homework. For the obstacle placed at the center of the arena, few points on the obstacle are taken which represents the obstacle and the 12 april tag markers are treated as obstacles as well. The voronoi diagram is created using the voronoi function in matlab. Kindly refer to compute_voronoi.m. In the resulting voronoi diagram, the path segments which are passing through the obstacle at the center are removed. The path segments are also confined to the arena space by truncating the path segments which go outside the arena. The following is the final outcome of the processing of the voronoi diagram. The complete processing for voronoi diagrams is performed in spatial_vornoi.ipynb.
 
 
