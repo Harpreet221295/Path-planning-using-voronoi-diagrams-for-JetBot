@@ -3,7 +3,7 @@
 ## Task
 An environment is given which has april tags at its edges and an obstacle in the middle. I couldn’t afford a 10ftx10ft space so like hw2/3, I’m doing this homework in the 2m x 2m space. Following is the pictorial representation of the arena and its corresponding image.
      
-<a href="url"><img src="./layout.png" height="300" width="300" ></a>
+<a href="url"><img src="./layout.png" height="300" width="400" ></a>
 <a href="url"><img src="./arena_hw4_graph.png" height="300" width="300" ></a>
 <a href="url"><img src="./arena_pic.png" height="300" width="300" ></a>
 
