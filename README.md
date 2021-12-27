@@ -10,6 +10,9 @@ An environment is given which has april tags at its edges and an obstacle in the
 ### Voronoi Based Planning Algorithm
 To achieve the task mentioned in the above section, Voronoi Diagrams based approach is used in this homework. For the obstacle placed at the center of the arena, few points on the obstacle are taken which represents the obstacle and the 12 april tag markers are treated as obstacles as well. The voronoi diagram is created using the voronoi function in matlab. Kindly refer to compute_voronoi.m. In the resulting voronoi diagram, the path segments which are passing through the obstacle at the center are removed. The path segments are also confined to the arena space by truncating the path segments which go outside the arena. The following is the final outcome of the processing of the voronoi diagram. The complete processing for voronoi diagrams is performed in spatial_vornoi.ipynb.
 
+
+<a href="url"><img src="./voronoi_diagram_img.png" height="400" width="600" ></a>
+
 The voronoi Diagram is represented as a graph with nodes shown above in numbers. There are two dictionaries provided in spatial_voronoi.ipynb :- Nodes_dict and Edges_dict. Nodes_dict is mapping of the node number in the voronoi diagram(mentioned in the above diagram) with its coordinates and Edges_dict is the mapping from the edge number to the vertices joining it.
 Nodes_dict and Edges_dict are given to the planner_node.py for planning the path. The start position of the robot is taken as Node 1 and its initial orientation is parallel to the +x-axis, First stop is taken as node 7 and Second stop is taken as Node 11.
 
