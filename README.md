@@ -1,6 +1,7 @@
 # Path-planning-using-voronoi-diagrams-for-JetBot
 
 ## Task
+This project is part of cse276a: Introduction to Robotics at UCSD
 An environment is given which has april tags at its edges and an obstacle in the middle. I couldn’t afford a 10ftx10ft space so like hw2/3, I’m doing this homework in the 2m x 2m space. Following is the pictorial representation of the arena and its corresponding image.
      
 <a href="url"><img src="./layout.png" height="300" width="400" ></a>
@@ -53,4 +54,9 @@ planner_node.py:-
 7. cover_waypoints()
 8. Robot class:- a class to represent robot object. Contains robot’s pose(x,z and theta).
 
+### Code setup
+Check the setup.pdf for camera calibration and the importing the boiler code from <a href="https://github.com/AftermathK/jetbot_ros">here</a>. Replace the planner_node.py and localization_node.py in the pulled code with the planner_node.py and localization_node.py from this repository. The motor values for the translation and rotational motion do need to be recalibrated.
 ### <a href="https://drive.google.com/file/d/1Z7P_RIM_f-FtP9VpVdmfg-TYzbFl-h0K/view?usp=sharing">Link to full report</a>
+
+### Credits
+https://github.com/AftermathK/jetbot_ros
